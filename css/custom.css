@@ -1,0 +1,12 @@
+.client-logo-carousel .owl-nav {
+    display: none !important;
+}
+
+.client-logo-carousel .owl-prev,
+.client-logo-carousel .owl-next {
+    display: none !important;
+}
+
+.client-logo-carousel .owl-dots {
+    display: none !important;
+} 
