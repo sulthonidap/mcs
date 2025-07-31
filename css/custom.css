@@ -10,3 +10,64 @@
 .client-logo-carousel .owl-dots {
     display: none !important;
 } 
+
+/* Custom CSS untuk Testimoni Section */
+
+.testimoni-pic img {
+    border: 3px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.testimoni-pic img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.testimoni-content p {
+    font-style: italic;
+    line-height: 1.6;
+    color: #666;
+}
+
+.testimoni-content h5 {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.testimoni-content span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+/* Animation for testimoni cards */
+.wt-box.bg-gray {
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.wt-box.bg-gray:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-color: #007bff;
+}
+
+/* Quote icon for testimoni */
+.testimoni-content p::before {
+    content: '"';
+    font-size: 60px;
+    color: #007bff;
+    opacity: 0.3;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    font-family: serif;
+}
+
+.testimoni-content {
+    position: relative;
+    padding-left: 20px;
+} 
